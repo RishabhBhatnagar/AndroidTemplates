@@ -57,6 +57,7 @@ class Pages extends StatelessWidget {
   @override
   final String title;
   Pages(this.title);
+
   Widget build(BuildContext context) {
     return new Scaffold(
       body: new Center(
